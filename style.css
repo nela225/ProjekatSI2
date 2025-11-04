@@ -1,0 +1,19 @@
+body {
+  background: linear-gradient(135deg, #a8edea, #fed6e3);
+  min-height: 100vh;
+}
+
+.card {
+  border-radius: 20px;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
